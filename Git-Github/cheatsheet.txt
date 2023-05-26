@@ -1,0 +1,28 @@
+- git — version = nos da la version de nuestro GIT
+- ls -A = mostar elementos ocultos
+- rm -A = borrar cosas
+- git branch -M main  = cambiar el nombre master  a main
+- git config --global init.defaultBranch main  = cmabiar nombre a main de manera global
+- git init = crear repositorio local
+- git branch -m master main
+- git commit  -m “mensajeDescripcion”= es nuestro historial de cambios
+- git add. = agrega todos los archivos
+- git status = seguimiento del estado de los archivos para ver si estan actualizados o no
+- git pull origin master= para actualizar el repositorio de la web al local
+- git config  [user.name](http://user.name) “nombredeusuariodegithub” = agregar usuario
+- git config [user.email](http://user.email) “correodegithub” = agregar correo
+- git log  = nos dice el historial de commits que tenemos
+- git push origin master = para subir cambios a la web
+- git push -u origin main = sube los cambios a web desde el local , pero sube todas las ramas se sincronizan
+- git remote -v = nos muestra el link del repositorio clonado
+- git clone = para copiar el repositorio de la web
+- git branch = para crear una nueva rama, enumera, cambiar nombre, eliminar ramas.
+- git branch = enumera ramas
+- git branch <nombrerama> = crea una rama
+- git branch -d <branch> = Elimina la rama llamada <branch>. Git evita que eliminemos la rama si tiene cambios
+que aún no se han fusionado con la rama Main.
+- git branch -D <branch> = Fuerza la eliminación de la rama especificada, incluso si tiene cambios sin fusionar.
+- git checkout nombre_rama = para moverse entre ramas  
+- git pull origin <branch> =  Así también, para traer los cambios de esa rama utilizamos el git pull agregando desde donde
+queremos traer los cambios:
+- git push origin <branch> = subir cambios hechos
