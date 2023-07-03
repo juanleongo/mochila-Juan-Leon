@@ -1,0 +1,7 @@
+direccion ip privada : 192.168.1.23
+direccion ip publica : 190.24.40.195 
+direccion MAC: 09:01:21:10:eb:0a
+
+es diferente a la IP publica y privada de nuestra maquina host?
+
+Si son diferentes
